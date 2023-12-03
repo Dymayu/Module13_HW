@@ -27,11 +27,11 @@ public class Main {
 
         //handler.httpGet();
         handler.sendPOST();
-        //handler.sendPUT(5, "PUT");
-        //handler.sendPUT(5, "DELETE");
-        //handler.sendGEToneUSer(1);
-        //handler.sendGETallUsers();
-        //handler.sendGETUserByName("Kamren");
+        handler.sendPUT(5, "PUT");
+        handler.sendPUT(5, "DELETE");
+        handler.sendGEToneUSer(1);
+        handler.sendGETallUsers();
+        handler.sendGETUserByName("Kamren");
 
 
     }
